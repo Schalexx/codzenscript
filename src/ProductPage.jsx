@@ -183,7 +183,7 @@ function ProductPage() {
 
             {/* CTA Button */}
             <a
-              href="https://whop.com/checkout/plan_8XxOORJLoXPYj?d2c=true"
+              href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-primary hover:bg-red-600 text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-colors mb-3 md:mb-4"
@@ -328,7 +328,7 @@ function ProductPage() {
           <p className="text-base md:text-xl mb-6 md:mb-8 opacity-90">
             Join 1,936+ players using the Aries NBA 2K26 Zen script
           </p>
-          <a href="https://whop.com/checkout/plan_8XxOORJLoXPYj?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-8 md:px-10 py-3 md:py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-base md:text-lg transition-colors">
+          <a href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-8 md:px-10 py-3 md:py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-base md:text-lg transition-colors">
             Buy Now - $60.00
           </a>
           <div className="mt-4 md:mt-6 text-xs md:text-sm opacity-90">

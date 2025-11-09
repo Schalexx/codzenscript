@@ -263,7 +263,7 @@ function WhatIsPage() {
               View Product Details
             </Link>
             <a
-              href="https://whop.com/checkout/plan_8XxOORJLoXPYj?d2c=true"
+              href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-gray-900 text-white hover:bg-gray-800 rounded-lg font-bold text-lg transition-colors"

@@ -258,7 +258,7 @@ function App() {
             {/* CTA Buttons */}
             <div className="space-y-2 md:space-y-3 mb-4 md:mb-6">
               <a
-                href="https://whop.com/checkout/plan_codzenscript?d2c=true"
+                href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-all transform hover:scale-[1.02] shadow-lg"
@@ -433,7 +433,7 @@ function App() {
                 ⚠️ WARNING: Only 12 spots left at $60
               </p>
               <a
-                href="https://whop.com/checkout/plan_codzenscript?d2c=true"
+                href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-white text-primary hover:bg-gray-100 font-black py-4 rounded-lg text-center text-lg transition-all transform hover:scale-[1.02]"
@@ -591,7 +591,7 @@ function App() {
           {/* CTA Below Comparison */}
           <div className="text-center mt-8">
             <a
-              href="https://whop.com/checkout/plan_codzenscript?d2c=true"
+              href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-primary-dark transition-all transform hover:scale-105 shadow-lg text-lg"
@@ -676,7 +676,7 @@ function App() {
               </div>
 
               <a
-                href="https://whop.com/checkout/plan_codzenscript?d2c=true"
+                href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary-dark transition-all transform hover:scale-[1.02] text-lg mb-4 text-center shadow-lg"
@@ -730,7 +730,7 @@ function App() {
           <p className="text-xl mb-8 opacity-90">
             Join 18,000+ players using the #1 rated COD Zen script
           </p>
-          <a href="https://whop.com/checkout/plan_codzenscript?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl">
+          <a href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl">
             🎯 JOIN 18K+ WINNERS — $60
           </a>
           <div className="mt-6 text-sm opacity-90">
