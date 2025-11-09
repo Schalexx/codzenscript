@@ -16,27 +16,27 @@ function App() {
     },
     {
       title: 'Perfect Anti Recoil',
-      desc: 'Master Perfect Recoil Control — The Elite Cronus Zen Script introduces a next-gen recoil management system featuring over 100 anti recoil boosters. Built from the ground up for competitive consistency, it dynamically balances weapon feedback, ensuring every shot lands steady, smooth, and perfectly on target.',
+      desc: 'Master Perfect Recoil Control — The Apollo Cronus Zen Script introduces a next-gen recoil management system featuring over 100 anti recoil boosters. Built from the ground up for competitive consistency, it dynamically balances weapon feedback, ensuring every shot lands steady, smooth, and perfectly on target.',
       badge: 'HOT'
     },
     {
       title: 'Rapid Fire',
-      desc: 'Built for Speed — The Elite Cronus Zen Script introduces Advanced Rapid Fire 2.0, engineered for seamless timing across all weapons. Turning semi automatic weapons to full automatic to help you dominate with any loadout.',
+      desc: 'Built for Speed — The Apollo Cronus Zen Script introduces Advanced Rapid Fire 2.0, engineered for seamless timing across all weapons. Turning semi automatic weapons to full automatic to help you dominate with any loadout.',
       badge: null
     },
     {
       title: 'Auto Ping',
-      desc: 'Stay Locked and Aware — The Elite Cronus Zen Script\'s Auto Ping system instantly tags enemies the moment they\'re detected — allowing you to track them through walls! Maintain constant awareness of enemy locations at all times.',
+      desc: 'Stay Locked and Aware — The Apollo Cronus Zen Script\'s Auto Ping system instantly tags enemies the moment they\'re detected — allowing you to track them through walls! Maintain constant awareness of enemy locations at all times.',
       badge: 'NEW'
     },
     {
       title: 'Maximum Aim Assist Boost',
-      desc: 'Lock On Instantly — The Elite Cronus Zen Script\'s Precision Aim Engine amplifies every movement, syncing with your stick input to create unmatched responsiveness. Expect smoother tracking, sharper snaps, and total target control.',
+      desc: 'Lock On Instantly — The Apollo Cronus Zen Script\'s Precision Aim Engine amplifies every movement, syncing with your stick input to create unmatched responsiveness. Expect smoother tracking, sharper snaps, and total target control.',
       badge: null
     },
     {
       title: 'Advanced Features',
-      desc: 'This is just the surface! Elite Zen Script contains many more advanced features including No Delay, Headshot Assist, Hipfire Assist & More!',
+      desc: 'This is just the surface! Apollo Zen Script contains many more advanced features including No Delay, Headshot Assist, Hipfire Assist & More!',
       badge: 'PREMIUM'
     }
   ]
@@ -206,7 +206,7 @@ function App() {
             {/* Mobile: Title */}
             <div className="mb-4 md:hidden">
               <h1 className="text-3xl font-bold text-gray-900">
-                Elite | COD Script
+                Apollo | COD Script
               </h1>
               <div className="flex items-center gap-2 mt-2 text-sm">
                 <div className="flex items-center">
@@ -224,7 +224,7 @@ function App() {
             {/* Desktop: Title */}
             <div className="hidden md:block mb-4">
               <h1 className="text-5xl font-bold text-gray-900 mb-3">
-                Elite | COD Script
+                Apollo | COD Script
               </h1>
               <div className="flex items-center gap-3">
                 <div className="flex items-center">
@@ -298,7 +298,7 @@ function App() {
 
             {/* Description */}
             <p className="text-sm md:text-base text-gray-700 mb-4 md:mb-6 leading-relaxed">
-              The best Cronus Zen script for <strong>Call of Duty</strong>, trusted by top-tier players chasing domination. Elite has the perfect mod combination to help you dominate any lobby from Warzone to Ranked.
+              The best Cronus Zen script for <strong>Call of Duty</strong>, trusted by top-tier players chasing domination. Apollo has the perfect mod combination to help you dominate any lobby from Warzone to Ranked.
             </p>
 
             {/* Key Features */}
@@ -374,7 +374,7 @@ function App() {
               Dominate any lobby in Warzone, Multiplayer or Ranked
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              See how the Elite Zen Script keeps your aim locked and every shot laser-straight in live combat.
+              See how the Apollo Zen Script keeps your aim locked and every shot laser-straight in live combat.
             </p>
           </div>
 
@@ -503,7 +503,7 @@ function App() {
       {/* Comparison Section */}
       <section className="bg-gradient-to-b from-white to-gray-50 py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Elite vs. Other Scripts</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Apollo vs. Other Scripts</h2>
           <div className="relative pt-4">
             <div className="bg-white rounded-2xl shadow-2xl overflow-visible border border-gray-200">
               <div className="grid md:grid-cols-3 divide-x divide-gray-200">
@@ -536,7 +536,7 @@ function App() {
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap z-10">
                     BEST CHOICE
                   </div>
-                  <h3 className="font-bold text-xl mb-4">Elite Script</h3>
+                  <h3 className="font-bold text-xl mb-4">Apollo Script</h3>
                   <div className="space-y-3 text-sm">
                     <div className="flex items-center gap-2">
                       <span className="text-green-300">✓</span>
