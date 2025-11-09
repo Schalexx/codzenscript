@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#FF6B00', // COD Orange
-        secondary: '#0A0A0A', // Dark Black
-        military: '#1A4D2E', // Military Green
-        accent: '#2E7D32', // Accent Green
+        primary: '#6B8E23', // Tactical Olive Green
+        'primary-dark': '#556B2F', // Dark Olive
+        secondary: '#0D1117', // Deep Charcoal
+        military: '#2F4F2F', // Military Green
+        accent: '#9ACD32', // Bright Tactical Lime
       },
     },
   },

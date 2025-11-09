@@ -108,7 +108,7 @@ function App() {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-2">
-              <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-orange-600 transition-colors">
+              <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-primary-dark transition-colors">
                 Home
               </a>
               <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
@@ -135,7 +135,7 @@ function App() {
           {/* Mobile Menu */}
           {mobileMenuOpen && (
             <nav className="md:hidden mt-3 pb-2 flex flex-col gap-2">
-              <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-orange-600 transition-colors">
+              <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-primary-dark transition-colors">
                 Home
               </a>
               <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
@@ -168,7 +168,8 @@ function App() {
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  preload="none"
+                  loading="lazy"
                   className="w-full"
                 >
                   <source src="/gameplay.mp4" type="video/mp4" />
@@ -260,7 +261,7 @@ function App() {
                 href="https://whop.com/checkout/plan_codzenscript?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-primary hover:bg-orange-600 text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-all transform hover:scale-105 shadow-lg"
+                className="block w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-all transform hover:scale-[1.02] shadow-lg"
               >
                 🔥 GET INSTANT ACCESS — $60
               </a>
@@ -327,7 +328,7 @@ function App() {
             </div>
 
             {/* Support Callout */}
-            <div className="bg-orange-50 border border-orange-200 rounded-lg p-3 md:p-4 mb-4 md:mb-6">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-3 md:p-4 mb-4 md:mb-6">
               <div className="flex items-start gap-2 md:gap-3">
                 <div className="text-2xl md:text-3xl">🛡️</div>
                 <div className="flex-1">
@@ -380,12 +381,14 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Video 1 */}
             <div>
-              <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300">
+              <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300 bg-black">
                 <video
                   autoPlay
                   muted
                   loop
                   playsInline
+                  preload="none"
+                  loading="lazy"
                   className="w-full"
                 >
                   <source src="/auto-tracking.mp4" type="video/mp4" />
@@ -401,12 +404,14 @@ function App() {
 
             {/* Video 2 */}
             <div>
-              <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300">
+              <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300 bg-black">
                 <video
                   autoPlay
                   muted
                   loop
                   playsInline
+                  preload="none"
+                  loading="lazy"
                   className="w-full"
                 >
                   <source src="/anti-recoil.mp4" type="video/mp4" />
@@ -423,7 +428,7 @@ function App() {
 
           {/* CTA Below Videos */}
           <div className="max-w-lg mx-auto mt-12 text-center">
-            <div className="bg-gradient-to-r from-primary to-orange-600 rounded-xl p-6 shadow-2xl">
+            <div className="bg-gradient-to-r from-primary to-primary-dark rounded-xl p-6 shadow-2xl">
               <p className="text-white text-sm font-semibold mb-3">
                 ⚠️ WARNING: Only 12 spots left at $60
               </p>
@@ -589,7 +594,7 @@ function App() {
               href="https://whop.com/checkout/plan_codzenscript?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-orange-600 transition-all transform hover:scale-105 shadow-lg text-lg"
+              className="inline-block px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-primary-dark transition-all transform hover:scale-105 shadow-lg text-lg"
             >
               Choose The Winning Script — $60
             </a>
@@ -674,7 +679,7 @@ function App() {
                 href="https://whop.com/checkout/plan_codzenscript?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-orange-600 transition-all transform hover:scale-105 text-lg mb-4 text-center shadow-lg"
+                className="block w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary-dark transition-all transform hover:scale-105 text-lg mb-4 text-center shadow-lg"
               >
                 🔥 SECURE YOUR SPOT — $60
               </a>
