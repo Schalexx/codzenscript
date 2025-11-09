@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nba2kzenscripts.com/sitemap.xml
