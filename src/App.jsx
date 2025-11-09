@@ -628,15 +628,15 @@ function App() {
       <section id="pricing" className="max-w-4xl mx-auto px-4 py-16">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Simple, Transparent Pricing</h2>
 
-        <div className="bg-white rounded-2xl shadow-xl border-2 border-primary p-8 relative">
+        <div className="bg-white rounded-2xl shadow-xl border-2 border-primary p-8 relative max-w-2xl mx-auto">
           <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-bold">
             BEST VALUE
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="max-w-xl mx-auto">
             {/* Pricing Info */}
             <div>
-              <div className="mb-6">
+              <div className="mb-6 text-center">
                 <div className="text-5xl font-bold text-gray-900 mb-2">
                   $60.00
                   <span className="text-2xl text-gray-400 line-through ml-2">$100</span>
@@ -679,7 +679,7 @@ function App() {
                 href="https://whop.com/checkout/plan_codzenscript?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary-dark transition-all transform hover:scale-105 text-lg mb-4 text-center shadow-lg"
+                className="block w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary-dark transition-all transform hover:scale-[1.02] text-lg mb-4 text-center shadow-lg"
               >
                 🔥 SECURE YOUR SPOT — $60
               </a>
