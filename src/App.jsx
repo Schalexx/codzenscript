@@ -428,7 +428,7 @@ function App() {
 
           {/* CTA Below Videos */}
           <div className="max-w-lg mx-auto mt-12 text-center">
-            <div className="bg-gradient-to-r from-primary to-primary-dark rounded-xl p-6 shadow-2xl">
+            <div className="bg-primary rounded-xl p-6 shadow-2xl">
               <p className="text-white text-sm font-semibold mb-3">
                 ⚠️ WARNING: Only 12 spots left at $60
               </p>
@@ -436,7 +436,7 @@ function App() {
                 href="https://whop.com/checkout/plan_codzenscript?d2c=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-white text-primary hover:bg-gray-100 font-black py-4 rounded-lg text-center text-lg transition-all transform hover:scale-105"
+                className="block w-full bg-white text-primary hover:bg-gray-100 font-black py-4 rounded-lg text-center text-lg transition-all transform hover:scale-[1.02]"
               >
                 CLAIM YOUR SPOT NOW
               </a>
