@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import useTimer from './useTimer'
+import LazyVideo from './LazyVideo'
 import './App.css'
 
 function App() {
@@ -163,18 +164,14 @@ function App() {
           <div className="flex items-start justify-center order-1 md:order-1">
             <div className="relative w-full max-w-md md:max-w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl border-2 border-gray-300 bg-black">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="none"
-                  loading="lazy"
+                <LazyVideo
+                  src="/gameplay.mp4"
                   className="w-full"
-                >
-                  <source src="/gameplay.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                  autoPlay={true}
+                  muted={true}
+                  loop={true}
+                  playsInline={true}
+                />
               </div>
               <p className="text-center text-gray-600 mt-2 text-xs md:text-sm font-semibold">
                 ⬆️ Dominate any lobby in Warzone, Multiplayer or Ranked
@@ -382,17 +379,14 @@ function App() {
             {/* Video 1 */}
             <div>
               <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300 bg-black">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="none"
-                  loading="lazy"
+                <LazyVideo
+                  src="/auto-tracking.mp4"
                   className="w-full"
-                >
-                  <source src="/auto-tracking.mp4" type="video/mp4" />
-                </video>
+                  autoPlay={true}
+                  muted={true}
+                  loop={true}
+                  playsInline={true}
+                />
               </div>
               <div className="mt-4 bg-white rounded-lg p-4 shadow-md">
                 <h3 className="font-bold text-gray-900 mb-2">🎯 Perfect Auto Tracking</h3>
@@ -405,17 +399,14 @@ function App() {
             {/* Video 2 */}
             <div>
               <div className="relative rounded-xl overflow-hidden shadow-xl border-2 border-gray-300 bg-black">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="none"
-                  loading="lazy"
+                <LazyVideo
+                  src="/anti-recoil.mp4"
                   className="w-full"
-                >
-                  <source src="/anti-recoil.mp4" type="video/mp4" />
-                </video>
+                  autoPlay={true}
+                  muted={true}
+                  loop={true}
+                  playsInline={true}
+                />
               </div>
               <div className="mt-4 bg-white rounded-lg p-4 shadow-md">
                 <h3 className="font-bold text-gray-900 mb-2">⚡ Flawless Anti Recoil Control</h3>
