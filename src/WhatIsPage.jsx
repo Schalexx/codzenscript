@@ -5,13 +5,13 @@ function WhatIsPage() {
   return (
     <>
       <SEO
-        title="What is NBA 2K26 Zen Script? Complete Guide & Explanation"
-        description="Learn everything about NBA 2K26 Zen Scripts - how they work, what they do, and why they're used. Understand Cronus Zen scripts, hardware-level enhancements, auto-green features, and gameplay advantages."
-        keywords="What is NBA 2K26 Zen Script, NBA Zen Script explained, Cronus Zen NBA 2K26, How Zen Scripts work, NBA 2K26 hardware enhancements, Auto Green explained, Zen Script guide"
-        canonical="/what-is-nba-2k26-zen-script"
-        ogTitle="What is NBA 2K26 Zen Script? Complete Explanation"
-        ogDescription="Complete guide explaining NBA 2K26 Zen Scripts - hardware-level gameplay enhancements, auto-green features, and how Cronus Zen works with NBA 2K26."
-        ogUrl="/what-is-nba-2k26-zen-script"
+        title="What is Call of Duty Zen Script? Complete Guide & Explanation"
+        description="Learn everything about Call of Duty Zen Scripts - how they work, what they do, and why they're used. Understand Cronus Zen scripts, hardware-level enhancements, auto tracking, anti-recoil, and gameplay advantages."
+        keywords="What is COD Zen Script, Call of Duty Zen Script explained, Cronus Zen COD, How Zen Scripts work, COD hardware enhancements, Auto Tracking explained, Zen Script guide"
+        canonical="/what-is-cod-zen-script"
+        ogTitle="What is Call of Duty Zen Script? Complete Explanation"
+        ogDescription="Complete guide explaining Call of Duty Zen Scripts - hardware-level gameplay enhancements, auto tracking, anti-recoil features, and how Cronus Zen works with COD."
+        ogUrl="/what-is-cod-zen-script"
       />
       <div className="min-h-screen bg-white">
       {/* Header */}
@@ -20,7 +20,7 @@ function WhatIsPage() {
           <div className="flex items-center justify-between">
             <div className="flex-shrink-0">
               <Link to="/">
-                <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-12" />
+                <img src="/cod-logo.png" alt="Call of Duty Zen Scripts" className="h-12" />
               </Link>
             </div>
             <nav className="hidden md:flex items-center gap-6">
@@ -30,7 +30,7 @@ function WhatIsPage() {
               <Link to="/product" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Product
               </Link>
-              <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -40,17 +40,17 @@ function WhatIsPage() {
 
       {/* Main Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-5xl font-bold mb-6 text-gray-900">What is NBA 2K26 Zen Script?</h1>
+        <h1 className="text-5xl font-bold mb-6 text-gray-900">What is Call of Duty Zen Script?</h1>
 
         <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-          An NBA 2K26 Zen Script is a specialized gaming script designed to work with the Cronus Zen device, providing advanced gameplay enhancements for NBA 2K26. These scripts give players significant advantages through automated actions, perfect timing, and enhanced controls.
+          A Call of Duty Zen Script is a specialized gaming script designed to work with the Cronus Zen device, providing advanced gameplay enhancements for Call of Duty. These scripts give players significant advantages through automated tracking, perfect recoil control, and enhanced combat precision.
         </p>
 
         {/* Introduction Section */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900">Understanding NBA 2K26 Zen Scripts</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Understanding Call of Duty Zen Scripts</h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            NBA 2K26 Zen Scripts are programmable macros that run on the <strong>Cronus Zen</strong> hardware device. The Cronus Zen acts as a bridge between your controller and console/PC, allowing custom scripts to modify controller inputs in real-time. For NBA 2K26, these scripts can automate complex button sequences, perfect shot timing, and enhance defensive movements.
+            Call of Duty Zen Scripts are programmable macros that run on the <strong>Cronus Zen</strong> hardware device. The Cronus Zen acts as a bridge between your controller and console/PC, allowing custom scripts to modify controller inputs in real-time. For Call of Duty, these scripts can provide auto tracking, eliminate recoil, enable rapid fire, and enhance overall combat performance.
           </p>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
             Unlike software cheats or mods that can be detected by anti-cheat systems, <strong>Cronus Zen scripts operate at the hardware level</strong>, making them virtually undetectable. The device simply sends modified controller inputs to your gaming system, appearing as legitimate controller commands.
@@ -70,13 +70,13 @@ function WhatIsPage() {
             <div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">2. Script Execution</h3>
               <p className="text-gray-700">
-                When you load an NBA 2K26 Zen script onto the device, it runs continuously in the background, monitoring game states and controller inputs.
+                When you load a Call of Duty Zen script onto the device, it runs continuously in the background, monitoring game states and controller inputs.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">3. Input Modification</h3>
               <p className="text-gray-700">
-                The script modifies your controller inputs in real-time based on what's happening in the game. For example, when you take a shot, the script can perfect the timing automatically.
+                The script modifies your controller inputs in real-time based on what's happening in the game. For example, when you aim down sights, the script can automatically track targets and eliminate recoil.
               </p>
             </div>
             <div>
@@ -90,42 +90,42 @@ function WhatIsPage() {
 
         {/* Key Features */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Key Features of NBA 2K26 Zen Scripts</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-900">Key Features of Call of Duty Zen Scripts</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🎯 Auto Green Release</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🎯 Perfect Auto Tracking</h3>
               <p className="text-gray-700">
-                Automatically times your shot release to hit the "green window" - the perfect timing zone for guaranteed makes. Works from anywhere on the court.
+                Automatically locks onto and tracks enemy targets with precision. Advanced AI-powered aim assist that follows targets seamlessly across the battlefield.
               </p>
             </div>
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🎮 Button Rhythm</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🎮 Flawless Anti-Recoil</h3>
               <p className="text-gray-700">
-                Converts button-press shots into rhythm shots with near-perfect accuracy. Eliminates the need for manual timing on jump shots.
+                Completely eliminates weapon recoil patterns for laser-accurate sprays. Works with every weapon in the game for perfect recoil control.
               </p>
             </div>
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🛡️ Defense Assist</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">⚡ Advanced Rapid Fire</h3>
               <p className="text-gray-700">
-                Automatically positions your player for optimal defense, anticipates opponent movements, and helps secure steals and blocks.
+                Maximizes your fire rate with semi-automatic and tactical weapons. Gain a significant advantage in close to mid-range combat.
               </p>
             </div>
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">⚡ Turbo Shots</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">📍 Auto Ping System</h3>
               <p className="text-gray-700">
-                Speeds up your shot animation while maintaining perfect timing. Get your shots off faster against tight defense.
+                Automatically pings enemy locations for your team. Never miss a callout and provide critical intel to your squad.
               </p>
             </div>
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">🏀 Auto Dribbling</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🏃 Tactical Movement</h3>
               <p className="text-gray-700">
-                Execute complex dribble moves and combos with simple button presses. Master advanced dribbling without hours of practice.
+                Execute advanced movement techniques with simple inputs. Slide cancels, bunny hops, and drop shots made effortless.
               </p>
             </div>
             <div className="border border-gray-200 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">⚙️ Adjustable Tempo</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">⚙️ Customizable Settings</h3>
               <p className="text-gray-700">
-                Fine-tune timing to match your playstyle and player animations. Customize settings for different builds and positions.
+                Fine-tune every aspect to match your playstyle. Adjust sensitivity, tracking speed, and feature intensity for optimal performance.
               </p>
             </div>
           </div>
@@ -133,19 +133,19 @@ function WhatIsPage() {
 
         {/* Why Use */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900">Why Use an NBA 2K26 Zen Script?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Why Use a Call of Duty Zen Script?</h2>
           <div className="space-y-4 text-lg text-gray-700">
             <p>
-              <strong>Competitive Advantage:</strong> In online modes like MyTeam, Park, and Pro-Am, every advantage matters. NBA 2K26 Zen scripts give you the edge you need to compete at the highest level.
+              <strong>Competitive Advantage:</strong> In multiplayer modes like Warzone, Ranked Play, and Team Deathmatch, every millisecond matters. Call of Duty Zen scripts give you the edge you need to dominate every lobby.
             </p>
             <p>
-              <strong>Skill Enhancement:</strong> While practicing can improve your game, some timing windows in NBA 2K26 are incredibly tight. Zen scripts help you consistently hit those windows without thousands of hours of practice.
+              <strong>Skill Enhancement:</strong> While practicing can improve your aim, the precision required for consistent wins is incredibly demanding. Zen scripts help you maintain laser-accurate tracking and recoil control without thousands of hours of practice.
             </p>
             <p>
               <strong>Level Playing Field:</strong> Many top players already use similar tools. Using a Zen script ensures you're not at a disadvantage against opponents who may be using enhancements.
             </p>
             <p>
-              <strong>Time Efficiency:</strong> Instead of spending hours mastering shot timing and dribble moves, focus on strategy and basketball IQ while the script handles the mechanical execution.
+              <strong>Time Efficiency:</strong> Instead of spending hours in aim trainers mastering recoil patterns and tracking, focus on strategy and game sense while the script handles the mechanical precision.
             </p>
           </div>
         </section>
@@ -154,7 +154,7 @@ function WhatIsPage() {
         <section className="mb-12 bg-blue-50 p-8 rounded-lg border border-blue-200">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Platform Compatibility</h2>
           <p className="text-lg text-gray-700 mb-4">
-            NBA 2K26 Zen scripts work with the Cronus Zen device across all major gaming platforms:
+            Call of Duty Zen scripts work with the Cronus Zen device across all major gaming platforms:
           </p>
           <ul className="space-y-2 text-lg text-gray-700">
             <li className="flex items-start gap-2">
@@ -184,7 +184,7 @@ function WhatIsPage() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Is Using a Zen Script Safe?</h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            One of the most common questions about NBA 2K26 Zen scripts is whether they're safe to use. The short answer is: <strong>yes, when used properly with a Cronus Zen device, these scripts are extremely safe.</strong>
+            One of the most common questions about Call of Duty Zen scripts is whether they're safe to use. The short answer is: <strong>yes, when used properly with a Cronus Zen device, these scripts are extremely safe.</strong>
           </p>
           <div className="bg-green-50 border border-green-200 p-6 rounded-lg mb-4">
             <h3 className="text-xl font-semibold mb-3 text-gray-900">Why Cronus Zen Scripts Are Undetectable:</h3>
@@ -214,7 +214,7 @@ function WhatIsPage() {
 
         {/* Getting Started */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900">Getting Started with NBA 2K26 Zen Scripts</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Getting Started with Call of Duty Zen Scripts</h2>
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 1: Get a Cronus Zen Device</h3>
@@ -223,27 +223,27 @@ function WhatIsPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 2: Purchase a Quality NBA 2K26 Script</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 2: Purchase a Quality Call of Duty Script</h3>
               <p className="text-lg text-gray-700">
-                Not all scripts are created equal. Look for scripts with regular updates, good support, and positive reviews. Our Aries script is specifically optimized for NBA 2K26 and includes all the latest features.
+                Not all scripts are created equal. Look for scripts with regular updates, good support, and positive reviews. Our Apollo script is specifically optimized for Call of Duty and includes all the latest features.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 3: Load the Script</h3>
               <p className="text-lg text-gray-700">
-                Using the Cronus Zen software, load your NBA 2K26 script onto the device. Most quality scripts come with detailed installation instructions.
+                Using the Cronus Zen software, load your Call of Duty script onto the device. Most quality scripts come with detailed installation instructions.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 4: Configure Settings</h3>
               <p className="text-lg text-gray-700">
-                Customize the script settings to match your playstyle, player build, and preferences. Good scripts offer extensive customization options.
+                Customize the script settings to match your playstyle, weapon preferences, and game mode. Good scripts offer extensive customization options.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-900">Step 5: Start Dominating</h3>
               <p className="text-lg text-gray-700">
-                Jump into NBA 2K26 and experience the difference. Your shots will be more consistent, your defense tighter, and your overall gameplay significantly improved.
+                Jump into Call of Duty and experience the difference. Your aim will be laser-accurate, recoil nonexistent, and your overall performance significantly improved.
               </p>
             </div>
           </div>
@@ -251,9 +251,9 @@ function WhatIsPage() {
 
         {/* CTA Section */}
         <section className="bg-primary text-white p-8 rounded-lg text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Ready to Elevate Your NBA 2K26 Game?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Dominate Call of Duty?</h2>
           <p className="text-xl mb-6 opacity-90">
-            Get the Aries NBA 2K26 Zen Script - the most advanced and feature-rich script available.
+            Get the Apollo Call of Duty Zen Script - the most advanced and feature-rich script available.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -280,7 +280,7 @@ function WhatIsPage() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Conclusion</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            NBA 2K26 Zen scripts represent the cutting edge of competitive gaming enhancement. By leveraging the Cronus Zen hardware device, these scripts provide undetectable performance improvements that can take your game to the next level. Whether you're grinding MyCareer, competing in Park, or climbing the Pro-Am ladder, a quality Zen script gives you the tools to succeed.
+            Call of Duty Zen scripts represent the cutting edge of competitive gaming enhancement. By leveraging the Cronus Zen hardware device, these scripts provide undetectable performance improvements that can take your game to the next level. Whether you're grinding ranked play, competing in Warzone, or dominating multiplayer lobbies, a quality Zen script gives you the tools to succeed.
           </p>
         </section>
 
@@ -291,25 +291,25 @@ function WhatIsPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-10 mb-4" />
+              <img src="/cod-logo.png" alt="Call of Duty Zen Scripts" className="h-10 mb-4" />
               <p className="text-sm text-gray-400">
-                Premium Cronus Zen scripts for NBA 2K26. Trusted by thousands.
+                Premium Cronus Zen scripts for Call of Duty. Trusted by thousands.
               </p>
             </div>
             <div>
               <h3 className="font-bold mb-4">Product</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link to="/product" className="hover:text-white">Aries Script</Link></li>
-                <li><Link to="/what-is-nba-2k26-zen-script" className="hover:text-white">What is a Zen Script?</Link></li>
+                <li><Link to="/product" className="hover:text-white">Apollo Script</Link></li>
+                <li><Link to="/what-is-cod-zen-script" className="hover:text-white">What is a Zen Script?</Link></li>
                 <li><Link to="/" className="hover:text-white">Features</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>
@@ -322,7 +322,7 @@ function WhatIsPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2025 NBA2KZenScripts. All rights reserved.</p>
+            <p>© 2025 CODZenScripts. All rights reserved.</p>
             <div className="flex flex-wrap gap-2 mt-4 md:mt-0">
               <img src="https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/visa.svg" alt="Visa" className="h-6 border border-gray-600 rounded px-2 py-1 bg-white" />
               <img src="https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/mastercard.svg" alt="Mastercard" className="h-6 border border-gray-600 rounded px-2 py-1 bg-white" />

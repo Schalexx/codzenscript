@@ -5,12 +5,12 @@ function SetupGuidePage() {
   return (
     <>
       <SEO
-        title="NBA 2K26 Zen Script Setup Guide - PS5, Xbox & PC Installation"
-        description="Complete step-by-step installation guide for NBA 2K26 Zen Script. Learn how to install, configure, and optimize your Cronus Zen script for PS5, PlayStation 4, Xbox Series X/S, Xbox One, and PC."
-        keywords="NBA 2K26 Zen Script setup, How to install Zen Script, Cronus Zen installation, NBA 2K26 setup guide, Zen Script PS5 setup, Xbox Zen Script installation, NBA 2K26 configuration"
+        title="Call of Duty Zen Script Setup Guide - PS5, Xbox & PC Installation"
+        description="Complete step-by-step installation guide for Call of Duty Zen Script. Learn how to install, configure, and optimize your Cronus Zen script for PS5, PlayStation 4, Xbox Series X/S, Xbox One, and PC."
+        keywords="COD Zen Script setup, How to install Zen Script, Cronus Zen installation, Call of Duty setup guide, Zen Script PS5 setup, Xbox Zen Script installation, COD configuration"
         canonical="/setup-guide"
-        ogTitle="NBA 2K26 Zen Script Setup Guide - Easy Installation for All Platforms"
-        ogDescription="Step-by-step installation and configuration guide for NBA 2K26 Zen Script. Works on PS5, Xbox Series X/S, and PC. Get started in minutes."
+        ogTitle="Call of Duty Zen Script Setup Guide - Easy Installation for All Platforms"
+        ogDescription="Step-by-step installation and configuration guide for Call of Duty Zen Script. Works on PS5, Xbox Series X/S, and PC. Get started in minutes."
         ogUrl="/setup-guide"
       />
       <div className="min-h-screen bg-white">
@@ -20,7 +20,7 @@ function SetupGuidePage() {
           <div className="flex items-center justify-between">
             <div className="flex-shrink-0">
               <Link to="/">
-                <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-12" />
+                <img src="/cod-logo.png" alt="Call of Duty Zen Scripts" className="h-12" />
               </Link>
             </div>
             <nav className="hidden md:flex items-center gap-6">
@@ -30,7 +30,7 @@ function SetupGuidePage() {
               <Link to="/product" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Product
               </Link>
-              <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -41,7 +41,7 @@ function SetupGuidePage() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-primary to-red-600 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">How to Install NBA 2K26 Zen Script</h1>
+          <h1 className="text-5xl font-bold mb-4">How to Install Call of Duty Zen Script</h1>
           <p className="text-xl opacity-90">
             Complete step-by-step guide for PS5, Xbox, and PC
           </p>
@@ -54,7 +54,7 @@ function SetupGuidePage() {
         {/* Introduction */}
         <section className="mb-12">
           <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-            Installing the <strong>Aries NBA 2K26 Zen Script</strong> is quick and easy. This comprehensive guide will walk you through everything you need to get up and running in under 15 minutes. Whether you're on PS5, Xbox, or PC, we've got you covered.
+            Installing the <strong>Apollo Call of Duty Zen Script</strong> is quick and easy. This comprehensive guide will walk you through everything you need to get up and running in under 15 minutes. Whether you're on PS5, Xbox, or PC, we've got you covered.
           </p>
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
             <h3 className="font-bold text-lg mb-2 text-gray-900">⏱️ Time Required: 10-15 minutes</h3>
@@ -64,7 +64,7 @@ function SetupGuidePage() {
               <li>• Windows PC (for initial setup only)</li>
               <li>• USB cable</li>
               <li>• Your gaming controller</li>
-              <li>• Aries NBA 2K26 Zen Script (purchased from us)</li>
+              <li>• Apollo Call of Duty Zen Script (purchased from us)</li>
             </ul>
           </div>
         </section>
@@ -92,7 +92,7 @@ function SetupGuidePage() {
             </div>
 
             <div className="border-l-4 border-primary pl-6">
-              <h3 className="text-2xl font-semibold mb-3 text-gray-900">3. Aries NBA 2K26 Script File</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-900">3. Apollo Call of Duty Script File</h3>
               <p className="text-gray-700">
                 After purchasing our script, you'll receive download links via email and Discord. Save the .gpc script file to your computer in an easy-to-find location.
               </p>
@@ -169,11 +169,11 @@ function SetupGuidePage() {
                   4
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-3 text-gray-900">Load the Aries NBA 2K26 Script</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-gray-900">Load the Apollo Call of Duty Script</h3>
                   <ol className="space-y-2 text-gray-700 list-decimal list-inside">
                     <li>In Cronus Zen Studio, click on the "Programmer" tab</li>
-                    <li>Click "Open" and navigate to where you saved the Aries script (.gpc file)</li>
-                    <li>Select the Aries_NBA2K26.gpc file</li>
+                    <li>Click "Open" and navigate to where you saved the Apollo script (.gpc file)</li>
+                    <li>Select the Apollo_COD.gpc file</li>
                     <li>Click "Program Device" to load the script onto your Cronus Zen</li>
                     <li>Wait for the "Programming Complete" message</li>
                   </ol>
@@ -195,7 +195,7 @@ function SetupGuidePage() {
                     <li>Connect your controller to the Cronus Zen (CONTROLLER port)</li>
                     <li>Connect the Cronus Zen to your console/PC (OUTPUT port)</li>
                     <li>Power on your controller and console</li>
-                    <li>Launch NBA 2K26</li>
+                    <li>Launch Call of Duty</li>
                   </ol>
                 </div>
               </div>
@@ -210,10 +210,10 @@ function SetupGuidePage() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-3 text-gray-900">Configure Script Settings</h3>
                   <ol className="space-y-2 text-gray-700 list-decimal list-inside">
-                    <li>In NBA 2K26, go to a practice mode or MyCourt</li>
+                    <li>In Call of Duty, go to a private match or firing range</li>
                     <li>Use the script's button combinations to access the settings menu</li>
-                    <li>Calibrate the auto-green for your player's jump shot</li>
-                    <li>Adjust tempo and sensitivity settings to your preference</li>
+                    <li>Calibrate the auto tracking and anti-recoil for your weapons</li>
+                    <li>Adjust tracking speed and sensitivity settings to your preference</li>
                     <li>Save your configuration</li>
                   </ol>
                   <div className="mt-3 bg-blue-50 border border-blue-200 rounded p-3">
@@ -313,14 +313,14 @@ function SetupGuidePage() {
             </details>
 
             <details className="bg-gray-50 border border-gray-200 rounded-lg p-4">
-              <summary className="font-semibold text-gray-900 cursor-pointer">Auto-green not working accurately</summary>
+              <summary className="font-semibold text-gray-900 cursor-pointer">Auto tracking or anti-recoil not working accurately</summary>
               <div className="mt-3 text-gray-700">
                 <p className="mb-2">Calibration tips:</p>
                 <ul className="list-disc list-inside space-y-1">
-                  <li>Recalibrate in practice mode with your exact jump shot</li>
-                  <li>Adjust the timing offset in script settings</li>
-                  <li>Make sure you're not moving while shooting during calibration</li>
-                  <li>Different jump shots require different calibration</li>
+                  <li>Recalibrate in firing range with your exact weapon loadout</li>
+                  <li>Adjust the tracking speed and recoil intensity in script settings</li>
+                  <li>Make sure your in-game sensitivity matches script configuration</li>
+                  <li>Different weapons require different anti-recoil profiles</li>
                 </ul>
               </div>
             </details>
@@ -335,7 +335,7 @@ function SetupGuidePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://discord.gg/GzuXJzkZWT"
+              href="https://discord.gg/codzenscript"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-lg transition-colors"
@@ -346,7 +346,7 @@ function SetupGuidePage() {
               to="/product"
               className="inline-block px-8 py-4 bg-gray-900 text-white hover:bg-gray-800 rounded-lg font-bold text-lg transition-colors"
             >
-              Buy Aries Script - $60
+              Buy Apollo Script - $60
             </Link>
           </div>
         </section>
@@ -360,12 +360,12 @@ function SetupGuidePage() {
               <h3 className="font-bold text-gray-900 mb-2">View FAQ</h3>
               <p className="text-sm text-gray-600">Common questions answered</p>
             </Link>
-            <Link to="/what-is-nba-2k26-zen-script" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
+            <Link to="/what-is-cod-zen-script" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
               <div className="text-4xl mb-3">📖</div>
               <h3 className="font-bold text-gray-900 mb-2">Learn More</h3>
               <p className="text-sm text-gray-600">Understanding Zen scripts</p>
             </Link>
-            <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
+            <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
               <div className="text-4xl mb-3">💬</div>
               <h3 className="font-bold text-gray-900 mb-2">Get Support</h3>
               <p className="text-sm text-gray-600">Join our community</p>
@@ -380,15 +380,15 @@ function SetupGuidePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img src="/nba2k.png" alt="NBA 2K Zen Scripts Logo" className="h-10 mb-4" />
+              <img src="/cod-logo.png" alt="Call of Duty Zen Scripts Logo" className="h-10 mb-4" />
               <p className="text-sm text-gray-400">
-                Premium Cronus Zen scripts for NBA 2K26. Trusted by thousands.
+                Premium Cronus Zen scripts for Call of Duty. Trusted by thousands.
               </p>
             </div>
             <div>
               <h3 className="font-bold mb-4">Product</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><Link to="/product" className="hover:text-white">Aries Script</Link></li>
+                <li><Link to="/product" className="hover:text-white">Apollo Script</Link></li>
                 <li><Link to="/setup-guide" className="hover:text-white">Setup Guide</Link></li>
                 <li><Link to="/faq" className="hover:text-white">FAQ</Link></li>
               </ul>
@@ -396,9 +396,9 @@ function SetupGuidePage() {
             <div>
               <h3 className="font-bold mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
                 <li><Link to="/setup-guide" className="hover:text-white">Installation Guide</Link></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>
@@ -411,7 +411,7 @@ function SetupGuidePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2025 NBA2KZenScripts. All rights reserved.</p>
+            <p>© 2025 CODZenScripts. All rights reserved.</p>
             <div className="flex flex-wrap gap-2 mt-4 md:mt-0">
               <img src="https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/visa.svg" alt="Visa Payment Method" className="h-6 border border-gray-600 rounded px-2 py-1 bg-white" />
               <img src="https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/mastercard.svg" alt="Mastercard Payment Method" className="h-6 border border-gray-600 rounded px-2 py-1 bg-white" />

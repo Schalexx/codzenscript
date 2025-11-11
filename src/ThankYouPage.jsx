@@ -24,7 +24,7 @@ function ThankYouPage() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link to="/">
-                <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-10 md:h-12" />
+                <img src="/cod-logo.png" alt="Call of Duty Zen Scripts" className="h-10 md:h-12" />
               </Link>
             </div>
 
@@ -33,7 +33,7 @@ function ThankYouPage() {
               <Link to="/" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Home
               </Link>
-              <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -86,7 +86,7 @@ function ThankYouPage() {
                   Get instant access to our private Discord server for downloads, updates, and 24/7 support.
                 </p>
                 <a
-                  href="https://discord.gg/GzuXJzkZWT"
+                  href="https://discord.gg/codzenscript"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
@@ -118,7 +118,7 @@ function ThankYouPage() {
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Start Dominating</h3>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Load up NBA 2K26 and experience unmatched performance with your new Zen script!
+                  Load up Call of Duty and experience unmatched performance with your new Zen script!
                 </p>
               </div>
             </div>
@@ -136,7 +136,7 @@ function ThankYouPage() {
                 We offer 1-on-1 setup assistance to ensure you're game-ready in minutes.
               </p>
               <a
-                href="https://discord.gg/GzuXJzkZWT"
+                href="https://discord.gg/codzenscript"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-primary text-white font-bold rounded-lg hover:bg-red-600 transition-colors"
@@ -183,24 +183,24 @@ function ThankYouPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
             <div className="col-span-2 md:col-span-1">
-              <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-8 md:h-10 mb-3 md:mb-4" />
+              <img src="/cod-logo.png" alt="Call of Duty Zen Scripts" className="h-8 md:h-10 mb-3 md:mb-4" />
               <p className="text-xs md:text-sm text-gray-400">
-                Premium Cronus Zen scripts for NBA 2K26. Trusted by thousands.
+                Premium Cronus Zen scripts for Call of Duty. Trusted by thousands.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-sm md:text-base mb-3 md:mb-4">Product</h3>
               <ul className="space-y-2 text-xs md:text-sm text-gray-400">
-                <li><Link to="/product" className="hover:text-white">Aries Script</Link></li>
+                <li><Link to="/product" className="hover:text-white">Apollo Script</Link></li>
                 <li><Link to="/" className="hover:text-white">Features</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold text-sm md:text-base mb-3 md:mb-4">Support</h3>
               <ul className="space-y-2 text-xs md:text-sm text-gray-400">
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>
@@ -213,7 +213,7 @@ function ThankYouPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-6 md:pt-8 text-center text-xs md:text-sm text-gray-400">
-            <p>&copy; 2025 NBA2KZenScripts. All rights reserved.</p>
+            <p>&copy; 2025 CODZenScripts. All rights reserved.</p>
           </div>
         </div>
       </footer>

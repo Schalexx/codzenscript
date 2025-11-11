@@ -9,40 +9,40 @@ function ProductPage() {
 
   const faqs = [
     {
-      question: 'Why choose this NBA 2K26 Zen Script?',
-      answer: 'Unlike generic scripts that keep you waiting and offer no personalization, our NBA 2K26 Zen script is fully customizable and delivers instantly. We use advanced systems to ensure only our verified clients\' scripts are activated properly. Security and quality come first, with dedicated support available 24/7 via Discord.'
+      question: 'Why choose this Call of Duty Zen Script?',
+      answer: 'Unlike generic scripts that keep you waiting and offer no personalization, our Call of Duty Zen script is fully customizable and delivers instantly. We use advanced systems to ensure only our verified clients\' scripts are activated properly. Security and quality come first, with dedicated support available 24/7 via Discord.'
     },
     {
-      question: 'How do I receive my NBA 2K26 Zen script?',
+      question: 'How do I receive my Call of Duty Zen script?',
       answer: 'After purchase, you\'ll instantly receive download instructions via email and Discord. Simply load the script onto your Cronus Zen device following our step-by-step guide, and you\'re ready to dominate NBA 2K26 in minutes.'
     },
     {
-      question: 'What platforms does this NBA 2K26 Zen script support?',
-      answer: 'Our NBA 2K26 Zen script works on all major platforms: PlayStation 5, PlayStation 4, Xbox Series X/S, Xbox One, and PC. The Cronus Zen device handles cross-platform compatibility seamlessly.'
+      question: 'What platforms does this Call of Duty Zen script support?',
+      answer: 'Our Call of Duty Zen script works on all major platforms: PlayStation 5, PlayStation 4, Xbox Series X/S, Xbox One, and PC. The Cronus Zen device handles cross-platform compatibility seamlessly.'
     },
     {
-      question: 'Is this NBA 2K26 Zen script safe to use?',
-      answer: 'Yes! Our NBA 2K26 Zen script operates through the Cronus Zen hardware device, which is undetectable by anti-cheat systems. Thousands of players use our scripts daily with zero bans. We prioritize safety and discretion in every update.'
+      question: 'Is this Call of Duty Zen script safe to use?',
+      answer: 'Yes! Our Call of Duty Zen script operates through the Cronus Zen hardware device, which is undetectable by anti-cheat systems. Thousands of players use our scripts daily with zero bans. We prioritize safety and discretion in every update.'
     },
     {
-      question: 'Do I get free updates for NBA 2K26 patches?',
-      answer: 'Absolutely! Your one-time purchase includes lifetime updates. Whenever 2K releases a patch or update, we quickly adapt the script and push the update to all customers at no extra cost. You\'ll always have the latest version.'
+      question: 'Do I get free updates for Call of Duty patches?',
+      answer: 'Absolutely! Your one-time purchase includes lifetime updates. Whenever Call of Duty releases a patch or update, we quickly adapt the script and push the update to all customers at no extra cost. You\'ll always have the latest version.'
     },
     {
-      question: 'Can I customize the NBA 2K26 Zen script settings?',
-      answer: 'Yes! Our script comes with fully adjustable settings. You can fine-tune shot timing, adjust tempo speeds, customize defensive assists, and more. We provide detailed documentation and 1-on-1 setup support to help you dial in your perfect configuration.'
+      question: 'Can I customize the Call of Duty Zen script settings?',
+      answer: 'Yes! Our script comes with fully adjustable settings. You can fine-tune aim sensitivity, adjust recoil control, customize rapid fire speeds, and more. We provide detailed documentation and 1-on-1 setup support to help you dial in your perfect configuration.'
     }
   ]
 
   return (
     <>
       <SEO
-        title="Aries NBA 2K26 Zen Script - Full Product Details & Features"
-        description="Discover the Aries NBA 2K26 Zen Script with auto-green, button rhythm, defense assist, and automatic dribbling. Get instant access with lifetime updates and 24/7 support. The only working auto-green for NBA 2K26."
-        keywords="NBA 2K26 Zen Script, Aries Script, NBA 2K26 Auto Green, Button Rhythm, Defense Assist, NBA 2K26 Cronus Zen, RS Auto Tempo, Automatic Dribbling, NBA 2K26 Features"
+        title="Apollo Call of Duty Zen Script - Full Product Details & Features"
+        description="Discover the Apollo Call of Duty Zen Script with auto tracking, anti-recoil, auto ping, and rapid fire. Get instant access with lifetime updates and 24/7 support. 250+ AI aim boosters for perfect precision."
+        keywords="Call of Duty Zen Script, Apollo Script, COD Auto Tracking, Anti Recoil, Auto Ping, COD Cronus Zen, Rapid Fire, Aim Assist, COD Features, Warzone Script"
         canonical="/product"
-        ogTitle="Aries NBA 2K26 Zen Script - Full Features & Details"
-        ogDescription="The only working auto-green for NBA 2K26. Advanced features including button rhythm, defense assist, and automatic dribbling. $60 with lifetime updates."
+        ogTitle="Apollo Call of Duty Zen Script - Full Features & Details"
+        ogDescription="250+ AI aim boosters for Call of Duty. Advanced features including auto tracking, anti-recoil, auto ping, and rapid fire. $60 with lifetime updates."
         ogUrl="/product"
       />
       <div className="min-h-screen bg-white">
@@ -53,7 +53,7 @@ function ProductPage() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link to="/">
-                <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-10 md:h-12" />
+                <img src="/cod-logo.png" alt="NBA 2K Zen Scripts" className="h-10 md:h-12" />
               </Link>
             </div>
 
@@ -62,7 +62,7 @@ function ProductPage() {
               <Link to="/" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Home
               </Link>
-              <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -78,7 +78,7 @@ function ProductPage() {
             <div className="relative w-full max-w-sm">
               <img
                 src="/ariesbox.png"
-                alt="Aries NBA 2K26 Zen Script"
+                alt="Apollo Call of Duty Zen Script"
                 className="w-full drop-shadow-2xl"
               />
             </div>
@@ -91,13 +91,13 @@ function ProductPage() {
               <div className="flex-shrink-0">
                 <img
                   src="/ariesbox.png"
-                  alt="Aries NBA 2K26 Zen Script"
+                  alt="Apollo Call of Duty Zen Script"
                   className="w-20 drop-shadow-xl"
                 />
               </div>
               <div className="flex-1">
                 <h1 className="text-3xl font-bold text-gray-900">
-                  Aries | 2k26
+                  Apollo | COD
                 </h1>
                 <div className="flex items-center gap-2 mt-2 text-sm">
                   <div className="flex items-center">
@@ -116,7 +116,7 @@ function ProductPage() {
             {/* Desktop: Title without product box */}
             <div className="hidden md:block mb-4">
               <h1 className="text-5xl font-bold text-gray-900 mb-3">
-                Aries | 2k26
+                Apollo | COD
               </h1>
               <div className="flex items-center gap-3">
                 <div className="flex items-center">
@@ -200,7 +200,7 @@ function ProductPage() {
                   <p className="text-xs md:text-sm text-gray-700 mb-2">
                     <strong>1-on-1 Support</strong> - We'll hop on a live call, get your script optimized for your playstyle and be game-ready in minutes.
                   </p>
-                  <a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="text-primary text-xs md:text-sm font-semibold hover:underline">
+                  <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="text-primary text-xs md:text-sm font-semibold hover:underline">
                     Join Discord for Support →
                   </a>
                 </div>
@@ -213,18 +213,18 @@ function ProductPage() {
       {/* Feature Showcase Sections */}
       <section className="bg-gray-50 py-8 md:py-16">
         <div className="max-w-7xl mx-auto px-4">
-          {/* Feature 1: Shooting Made Simple */}
+          {/* Feature 1: Perfect Auto Tracking */}
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center mb-12 md:mb-20">
             <div>
-              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Shooting Made Simple</h2>
+              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Perfect Auto Tracking</h2>
               <p className="text-base md:text-lg text-gray-700 mb-3 md:mb-4">
-                Transform your shooting game with our revolutionary <strong>Button Rhythm</strong> technology. Get excellent tempo with every shot, <strong>increasing green release up to 80% more</strong> compared to manual timing.
+                Dominate every gunfight with our revolutionary <strong>Auto Tracking Aim Assist</strong>. Featuring <strong>250+ AI aim boosters</strong> that adapt to your playstyle in real-time.
               </p>
               <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">
-                Button Rhythm converts button-press shots into rhythm shots with near-perfect accuracy every time. Our advanced algorithm handles the precision while you focus on positioning and strategy.
+                Our next-generation tracking system reads your movement patterns and delivers unmatched precision. Smooth lock-ons and effortless target control in every fight.
               </p>
               <p className="text-sm md:text-base text-gray-600">
-                No more timing stress. No more missed shots due to lag or inconsistent releases. With Button Rhythm, green lights become your new normal - whether you're in Park, Pro-Am, or grinding MyCareer.
+                Your crosshair never lets go. Perfect for Warzone, Multiplayer, or Ranked matches. Experience magnetized tracking that follows enemy movement flawlessly.
               </p>
             </div>
             <div className="bg-gray-900 rounded-lg aspect-video overflow-hidden">
@@ -233,14 +233,15 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
                 className="w-full h-full object-cover"
               >
-                <source src="/button_rhythm.mp4" type="video/mp4" />
+                <source src="/auto-tracking.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
 
-          {/* Feature 2: Advanced Auto Green */}
+          {/* Feature 2: Flawless Anti-Recoil */}
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center mb-12 md:mb-20">
             <div className="bg-gray-900 rounded-lg aspect-video overflow-hidden order-2 md:order-1">
               <video
@@ -248,31 +249,32 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
                 className="w-full h-full object-cover"
               >
-                <source src="/auto_green.mp4" type="video/mp4" />
+                <source src="/anti-recoil.mp4" type="video/mp4" />
               </video>
             </div>
             <div className="order-1 md:order-2">
-              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Advanced Auto Green</h2>
+              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Flawless Anti-Recoil</h2>
               <p className="text-base md:text-lg text-gray-700 mb-3 md:mb-4">
-                The <strong>only working auto-green for NBA 2K26</strong>. Once calibrated, green every shot from anywhere on the court with a single click.
+                Master perfect recoil control with <strong>100+ anti-recoil boosters</strong>. Every shot lands steady, smooth, and perfectly on target.
               </p>
               <p className="text-sm md:text-base text-gray-600">
-                Our proprietary timing engine adapts to your player's animations, release speeds, and court position. It's like having a built-in shooting coach that never misses.
+                Our next-gen recoil management system dynamically balances weapon feedback. Laser accuracy with every weapon - from ARs to SMGs to Snipers.
               </p>
             </div>
           </div>
 
-          {/* Feature 3: Enhanced Defense AI */}
+          {/* Feature 3: Advanced Rapid Fire */}
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Enhanced Defense AI</h2>
+              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Advanced Rapid Fire</h2>
               <p className="text-base md:text-lg text-gray-700 mb-3 md:mb-4">
-                Dominate both ends of the court with <strong>Defense Assist</strong> and <strong>Automatic Dribbling</strong>. Lock down opponents while maintaining fluid offensive movement.
+                Unleash devastating firepower with <strong>Rapid Fire 2.0</strong> and <strong>Auto Ping</strong>. Turn semi-auto weapons into full-auto beasts.
               </p>
               <p className="text-sm md:text-base text-gray-600">
-                Our AI-powered defensive system anticipates opponent movements and automatically positions you for steals and blocks. Combined with enhanced dribbling, you'll be unstoppable.
+                Our AI-powered rapid fire system is engineered for seamless timing across all weapons. Plus, Auto Ping instantly tags enemies through walls for constant awareness.
               </p>
             </div>
             <div className="bg-gray-900 rounded-lg aspect-video overflow-hidden">
@@ -281,9 +283,10 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
+                preload="none"
                 className="w-full h-full object-cover"
               >
-                <source src="/quick_stop.mp4" type="video/mp4" />
+                <source src="/gameplay.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -324,9 +327,9 @@ function ProductPage() {
       {/* Final CTA */}
       <section className="bg-primary text-white py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4">Ready to Dominate NBA 2K26?</h2>
+          <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4">Ready to Dominate Call of Duty?</h2>
           <p className="text-base md:text-xl mb-6 md:mb-8 opacity-90">
-            Join 1,936+ players using the Aries NBA 2K26 Zen script
+            Join 2,150+ players using the Apollo Call of Duty Zen script
           </p>
           <a href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-8 md:px-10 py-3 md:py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-base md:text-lg transition-colors">
             Buy Now - $60.00
@@ -342,24 +345,24 @@ function ProductPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
             <div className="col-span-2 md:col-span-1">
-              <img src="/nba2k.png" alt="NBA 2K Zen Scripts" className="h-8 md:h-10 mb-3 md:mb-4" />
+              <img src="/cod-logo.png" alt="COD Zen Scripts" className="h-8 md:h-10 mb-3 md:mb-4" />
               <p className="text-xs md:text-sm text-gray-400">
-                Premium Cronus Zen scripts for NBA 2K26. Trusted by thousands.
+                Premium Cronus Zen scripts for Call of Duty. Trusted by thousands.
               </p>
             </div>
             <div>
               <h3 className="font-bold text-sm md:text-base mb-3 md:mb-4">Product</h3>
               <ul className="space-y-2 text-xs md:text-sm text-gray-400">
-                <li><a href="/product" className="hover:text-white">Aries Script</a></li>
+                <li><a href="/product" className="hover:text-white">Apollo Script</a></li>
                 <li><a href="/" className="hover:text-white">Features</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-bold text-sm md:text-base mb-3 md:mb-4">Support</h3>
               <ul className="space-y-2 text-xs md:text-sm text-gray-400">
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
-                <li><a href="https://discord.gg/GzuXJzkZWT" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
+                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>
@@ -372,7 +375,7 @@ function ProductPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-6 md:pt-8 text-center text-xs md:text-sm text-gray-400">
-            <p>&copy; 2025 NBA2KZenScripts. All rights reserved.</p>
+            <p>&copy; 2025 CODZenScripts. All rights reserved.</p>
           </div>
         </div>
       </footer>
