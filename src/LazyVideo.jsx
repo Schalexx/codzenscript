@@ -17,23 +17,37 @@ function LazyVideo({ src, poster, className, autoPlay = true, muted = true, loop
             const source = video.querySelector('source')
             if (source && source.dataset.src) {
               source.src = source.dataset.src
+              // Use metadata preload for faster initial display
+              video.preload = 'metadata'
               video.load()
               setIsLoaded(true)
 
               if (autoPlay) {
-                // Attempt to play after loading starts
-                video.play().then(() => {
-                  setIsPlaying(true)
-                }).catch(() => {
-                  // Auto-play was prevented, user interaction needed
-                })
+                // Small delay to allow metadata to load
+                setTimeout(() => {
+                  video.play().then(() => {
+                    setIsPlaying(true)
+                  }).catch(() => {
+                    // Auto-play was prevented
+                  })
+                }, 100)
               }
+            }
+          } else if (!entry.isIntersecting && isLoaded) {
+            // Pause video when out of viewport to save bandwidth
+            if (video && !video.paused) {
+              video.pause()
+            }
+          } else if (entry.isIntersecting && isLoaded) {
+            // Resume playing when back in viewport
+            if (video && video.paused && autoPlay) {
+              video.play().catch(() => {})
             }
           }
         })
       },
       {
-        rootMargin: '100px', // Start loading 100px before entering viewport
+        rootMargin: '200px', // Start loading 200px before entering viewport
         threshold: 0.1
       }
     )

@@ -233,7 +233,8 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
-                preload="none"
+                preload="metadata"
+                loading="lazy"
                 className="w-full h-full object-cover"
               >
                 <source src="/auto-tracking.mp4" type="video/mp4" />
@@ -249,7 +250,8 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
-                preload="none"
+                preload="metadata"
+                loading="lazy"
                 className="w-full h-full object-cover"
               >
                 <source src="/anti-recoil.mp4" type="video/mp4" />
@@ -283,7 +285,8 @@ function ProductPage() {
                 loop
                 muted
                 playsInline
-                preload="none"
+                preload="metadata"
+                loading="lazy"
                 className="w-full h-full object-cover"
               >
                 <source src="/gameplay.mp4" type="video/mp4" />
