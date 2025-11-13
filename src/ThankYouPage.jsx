@@ -6,7 +6,7 @@ function ThankYouPage() {
     // Fire Google Ads conversion tracking
     if (typeof window.gtag !== 'undefined') {
       window.gtag('event', 'conversion', {
-        'send_to': 'AW-17688327458/P1etCOrQt7cbEKLqufJB',
+        'send_to': 'AW-17726539575/d2JlCK-nzb8bELeO1oRC',
         'value': 60.0,
         'currency': 'USD',
         'transaction_id': ''
