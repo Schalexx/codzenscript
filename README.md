@@ -1,12 +1,12 @@
-# NBA 2K26 Zen Scripts - nba2kzenscripts.com
+# Call of Duty Black Ops 7 (BO7) Zen Scripts - codzenscript.com
 
-Premium Cronus Zen Scripts for NBA 2K26. Built with React, Vite, and Tailwind CSS.
+Premium Cronus Zen Scripts for Call of Duty Black Ops 7. Built with React, Vite, and Tailwind CSS.
 
 ## Features
 
-- SEO-optimized for keywords: NBA 2K26 Zen Script, NBA Zen Script, 2K26 Zen Script, Cronus Zen Script NBA
+- SEO-optimized for keywords: Call of Duty Black Ops 7 Zen Script, BO7 Zen Script, COD Zen Script, Cronus Zen Script COD
 - Responsive design
-- Product showcase with 3 premium script packages
+- Product showcase with premium Apollo script
 - Customer testimonials
 - Statistics and social proof
 - FAQ section with accordion
@@ -50,14 +50,14 @@ npm run preview
 ## SEO Keywords
 
 The site is optimized for the following search terms:
-- NBA 2K26 Zen Script
-- NBA Zen Script
-- 2K26 Zen Script
-- Cronus Zen Script NBA
-- NBA 2K26 Scripts
-- Cronus Zen NBA 2K26
-- NBA 2K26 Aimbot
-- NBA 2K26 Auto Green
+- Call of Duty Black Ops 7 Zen Script
+- BO7 Zen Script
+- COD Zen Script
+- Cronus Zen Script COD
+- Black Ops 7 Scripts
+- Cronus Zen Black Ops 7
+- COD BO7 Auto Tracking
+- Black Ops 7 Anti Recoil
 
 ## Structure
 

@@ -203,7 +203,7 @@ function App() {
             {/* Mobile: Title */}
             <div className="mb-4 md:hidden">
               <h1 className="text-3xl font-bold text-gray-900">
-                Apollo | COD Script
+                Apollo | COD BO7 Script
               </h1>
               <div className="flex items-center gap-2 mt-2 text-sm">
                 <div className="flex items-center">
@@ -221,7 +221,7 @@ function App() {
             {/* Desktop: Title */}
             <div className="hidden md:block mb-4">
               <h1 className="text-5xl font-bold text-gray-900 mb-3">
-                Apollo | COD Script
+                Apollo | COD BO7 Script
               </h1>
               <div className="flex items-center gap-3">
                 <div className="flex items-center">
@@ -295,7 +295,7 @@ function App() {
 
             {/* Description */}
             <p className="text-sm md:text-base text-gray-700 mb-4 md:mb-6 leading-relaxed">
-              The best Cronus Zen script for <strong>Call of Duty</strong>, trusted by top-tier players chasing domination. Apollo has the perfect mod combination to help you dominate any lobby from Warzone to Ranked.
+              The best Cronus Zen script for <strong>Call of Duty Black Ops 7 (BO7)</strong>, trusted by top-tier players chasing domination. Apollo has the perfect mod combination to help you dominate any BO7 lobby from Warzone to Ranked.
             </p>
 
             {/* Key Features */}
@@ -303,7 +303,7 @@ function App() {
               <ul className="space-y-1.5 md:space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">✓</span>
-                  <span className="text-sm md:text-base text-gray-700">Optimized for all COD games including the latest gameplay mechanics</span>
+                  <span className="text-sm md:text-base text-gray-700">Optimized for Call of Duty Black Ops 7 (BO7) including the latest gameplay mechanics</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">✓</span>
@@ -368,10 +368,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              Dominate any lobby in Warzone, Multiplayer or Ranked
+              Dominate any Black Ops 7 lobby in Warzone, Multiplayer or Ranked
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              See how the Apollo Zen Script keeps your aim locked and every shot laser-straight in live combat.
+              See how the Apollo BO7 Zen Script keeps your aim locked and every shot laser-straight in live combat.
             </p>
           </div>
 
@@ -598,7 +598,7 @@ function App() {
       <section id="features" className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">Everything You Need</h2>
-          <p className="text-center text-gray-600 mb-12">Powerful features designed for Call of Duty domination</p>
+          <p className="text-center text-gray-600 mb-12">Powerful features designed for Call of Duty Black Ops 7 (BO7) domination</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, idx) => (
               <div key={idx} className="bg-white p-6 rounded-lg shadow-md relative">
@@ -717,9 +717,9 @@ function App() {
       {/* Final CTA */}
       <section className="bg-primary text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready to Dominate Call of Duty?</h2>
+          <h2 className="text-4xl font-bold mb-4">Ready to Dominate Black Ops 7?</h2>
           <p className="text-xl mb-8 opacity-90">
-            Join 18,000+ players using the #1 rated COD Zen script
+            Join 18,000+ players using the #1 rated Call of Duty Black Ops 7 (BO7) Zen script
           </p>
           <a href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl">
             🎯 JOIN 18K+ WINNERS — $60

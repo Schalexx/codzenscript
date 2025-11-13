@@ -14,7 +14,7 @@ function ProductPage() {
     },
     {
       question: 'How do I receive my Call of Duty Zen script?',
-      answer: 'After purchase, you\'ll instantly receive download instructions via email and Discord. Simply load the script onto your Cronus Zen device following our step-by-step guide, and you\'re ready to dominate NBA 2K26 in minutes.'
+      answer: 'After purchase, you\'ll instantly receive download instructions via email and Discord. Simply load the script onto your Cronus Zen device following our step-by-step guide, and you\'re ready to dominate Call of Duty Black Ops 7 in minutes.'
     },
     {
       question: 'What platforms does this Call of Duty Zen script support?',
@@ -37,12 +37,12 @@ function ProductPage() {
   return (
     <>
       <SEO
-        title="Apollo Call of Duty Zen Script - Full Product Details & Features"
-        description="Discover the Apollo Call of Duty Zen Script with auto tracking, anti-recoil, auto ping, and rapid fire. Get instant access with lifetime updates and 24/7 support. 250+ AI aim boosters for perfect precision."
-        keywords="Call of Duty Zen Script, Apollo Script, COD Auto Tracking, Anti Recoil, Auto Ping, COD Cronus Zen, Rapid Fire, Aim Assist, COD Features, Warzone Script"
+        title="Apollo Call of Duty Black Ops 7 (BO7) Zen Script - Full Product Details & Features"
+        description="Discover the Apollo Call of Duty Black Ops 7 Zen Script with auto tracking, anti-recoil, auto ping, and rapid fire. Get instant access with lifetime updates and 24/7 support. 250+ AI aim boosters for perfect precision in BO7."
+        keywords="Call of Duty Black Ops 7 Zen Script, BO7 Zen Script, Apollo Script, COD BO7 Auto Tracking, Anti Recoil, Auto Ping, Black Ops 7 Cronus Zen, Rapid Fire, Aim Assist, BO7 Features, Warzone Script"
         canonical="/product"
-        ogTitle="Apollo Call of Duty Zen Script - Full Features & Details"
-        ogDescription="250+ AI aim boosters for Call of Duty. Advanced features including auto tracking, anti-recoil, auto ping, and rapid fire. $60 with lifetime updates."
+        ogTitle="Apollo Call of Duty Black Ops 7 (BO7) Zen Script - Full Features & Details"
+        ogDescription="250+ AI aim boosters for Call of Duty Black Ops 7. Advanced features including auto tracking, anti-recoil, auto ping, and rapid fire. $60 with lifetime updates."
         ogUrl="/product"
       />
       <div className="min-h-screen bg-white">
@@ -77,7 +77,7 @@ function ProductPage() {
           <div className="hidden md:flex items-center justify-center order-2 md:order-1">
             <div className="relative w-full max-w-sm">
               <img
-                src="/ariesbox.png"
+                src="/apollocod.png"
                 alt="Apollo Call of Duty Zen Script"
                 className="w-full drop-shadow-2xl"
               />
@@ -90,14 +90,14 @@ function ProductPage() {
             <div className="flex items-end gap-4 mb-4 md:hidden">
               <div className="flex-shrink-0">
                 <img
-                  src="/ariesbox.png"
+                  src="/apollocod.png"
                   alt="Apollo Call of Duty Zen Script"
                   className="w-20 drop-shadow-xl"
                 />
               </div>
               <div className="flex-1">
                 <h1 className="text-3xl font-bold text-gray-900">
-                  Apollo | COD
+                  Apollo | COD BO7
                 </h1>
                 <div className="flex items-center gap-2 mt-2 text-sm">
                   <div className="flex items-center">
@@ -116,7 +116,7 @@ function ProductPage() {
             {/* Desktop: Title without product box */}
             <div className="hidden md:block mb-4">
               <h1 className="text-5xl font-bold text-gray-900 mb-3">
-                Apollo | COD
+                Apollo | COD BO7
               </h1>
               <div className="flex items-center gap-3">
                 <div className="flex items-center">
@@ -143,7 +143,7 @@ function ProductPage() {
             {/* Countdown Timer */}
             <div className="bg-gradient-to-r from-primary to-red-600 text-white rounded-lg p-3 md:p-4 mb-4 md:mb-6">
               <div className="text-center">
-                <p className="text-xs md:text-sm font-semibold mb-2">🔥 LIMITED TIME OFFER - USE CODE: 2K26</p>
+                <p className="text-xs md:text-sm font-semibold mb-2">🔥 LIMITED TIME OFFER - USE CODE: BO7</p>
                 <div className="flex justify-center gap-3 md:gap-4 text-xl md:text-2xl font-bold">
                   <div>
                     <span className="text-2xl md:text-3xl">{String(hours).padStart(2, '0')}</span>
@@ -216,15 +216,15 @@ function ProductPage() {
           {/* Feature 1: Perfect Auto Tracking */}
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center mb-12 md:mb-20">
             <div>
-              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Perfect Auto Tracking</h2>
+              <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4 text-gray-900">Perfect Auto Tracking for Black Ops 7</h2>
               <p className="text-base md:text-lg text-gray-700 mb-3 md:mb-4">
-                Dominate every gunfight with our revolutionary <strong>Auto Tracking Aim Assist</strong>. Featuring <strong>250+ AI aim boosters</strong> that adapt to your playstyle in real-time.
+                Dominate every Black Ops 7 gunfight with our revolutionary <strong>Auto Tracking Aim Assist</strong>. Featuring <strong>250+ AI aim boosters</strong> specifically optimized for BO7 that adapt to your playstyle in real-time.
               </p>
               <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">
-                Our next-generation tracking system reads your movement patterns and delivers unmatched precision. Smooth lock-ons and effortless target control in every fight.
+                Our next-generation tracking system reads your movement patterns in BO7 and delivers unmatched precision. Smooth lock-ons and effortless target control in every Black Ops 7 match.
               </p>
               <p className="text-sm md:text-base text-gray-600">
-                Your crosshair never lets go. Perfect for Warzone, Multiplayer, or Ranked matches. Experience magnetized tracking that follows enemy movement flawlessly.
+                Your crosshair never lets go. Perfect for Warzone, Black Ops 7 Multiplayer, or Ranked matches. Experience magnetized tracking that follows enemy movement flawlessly in BO7.
               </p>
             </div>
             <div className="bg-gray-900 rounded-lg aspect-video overflow-hidden">
@@ -327,9 +327,9 @@ function ProductPage() {
       {/* Final CTA */}
       <section className="bg-primary text-white py-8 md:py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4">Ready to Dominate Call of Duty?</h2>
+          <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-4">Ready to Dominate Black Ops 7?</h2>
           <p className="text-base md:text-xl mb-6 md:mb-8 opacity-90">
-            Join 2,150+ players using the Apollo Call of Duty Zen script
+            Join 2,150+ players using the Apollo Call of Duty Black Ops 7 Zen script
           </p>
           <a href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true" target="_blank" rel="noopener noreferrer" className="inline-block px-8 md:px-10 py-3 md:py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-base md:text-lg transition-colors">
             Buy Now - $60.00
