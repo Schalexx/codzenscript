@@ -33,7 +33,7 @@ function ThankYouPage() {
               <Link to="/" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Home
               </Link>
-              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="px-3 md:px-4 py-2 text-gray-700 text-xs md:text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -86,7 +86,7 @@ function ThankYouPage() {
                   Get instant access to our private Discord server for downloads, updates, and 24/7 support.
                 </p>
                 <a
-                  href="https://discord.gg/codzenscript"
+                  href="https://discord.gg/DkRgEDmP"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
@@ -136,7 +136,7 @@ function ThankYouPage() {
                 We offer 1-on-1 setup assistance to ensure you're game-ready in minutes.
               </p>
               <a
-                href="https://discord.gg/codzenscript"
+                href="https://discord.gg/DkRgEDmP"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-primary text-white font-bold rounded-lg hover:bg-red-600 transition-colors"
@@ -198,9 +198,9 @@ function ThankYouPage() {
             <div>
               <h3 className="font-bold text-sm md:text-base mb-3 md:mb-4">Support</h3>
               <ul className="space-y-2 text-xs md:text-sm text-gray-400">
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>

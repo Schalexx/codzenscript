@@ -30,7 +30,7 @@ function SetupGuidePage() {
               <Link to="/product" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Product
               </Link>
-              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -335,7 +335,7 @@ function SetupGuidePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://discord.gg/codzenscript"
+              href="https://discord.gg/DkRgEDmP"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 bg-white text-primary hover:bg-gray-100 rounded-lg font-bold text-lg transition-colors"
@@ -365,7 +365,7 @@ function SetupGuidePage() {
               <h3 className="font-bold text-gray-900 mb-2">Learn More</h3>
               <p className="text-sm text-gray-600">Understanding Zen scripts</p>
             </Link>
-            <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
+            <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-primary transition-colors">
               <div className="text-4xl mb-3">💬</div>
               <h3 className="font-bold text-gray-900 mb-2">Get Support</h3>
               <p className="text-sm text-gray-600">Join our community</p>
@@ -396,9 +396,9 @@ function SetupGuidePage() {
             <div>
               <h3 className="font-bold mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
                 <li><Link to="/setup-guide" className="hover:text-white">Installation Guide</Link></li>
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>

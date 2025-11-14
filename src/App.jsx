@@ -112,7 +112,7 @@ function App() {
               <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-primary-dark transition-colors">
                 Home
               </a>
-              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -139,7 +139,7 @@ function App() {
               <a href="#" className="px-4 py-2 bg-primary text-white text-sm font-medium rounded-md hover:bg-primary-dark transition-colors">
                 Home
               </a>
-              <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
+              <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100 rounded-md transition-colors">
                 Support
               </a>
             </nav>
@@ -333,7 +333,7 @@ function App() {
                   <p className="text-xs md:text-sm text-gray-700 mb-2">
                     <strong>1-on-1 Support</strong> - We'll hop on a live call, get your script optimized for your playstyle and be game-ready in minutes.
                   </p>
-                  <a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="text-primary text-xs md:text-sm font-semibold hover:underline">
+                  <a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="text-primary text-xs md:text-sm font-semibold hover:underline">
                     Join Discord for Support →
                   </a>
                 </div>
@@ -751,9 +751,9 @@ function App() {
             <div>
               <h3 className="font-bold mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
-                <li><a href="https://discord.gg/codzenscript" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Discord Community</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Installation Guide</a></li>
+                <li><a href="https://discord.gg/DkRgEDmP" target="_blank" rel="noopener noreferrer" className="hover:text-white">Contact Us</a></li>
               </ul>
             </div>
             <div>
