@@ -234,7 +234,7 @@ function ProductPage() {
               href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full bg-primary hover:bg-red-600 text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-colors mb-3 md:mb-4 shadow-lg hover:shadow-xl"
+              className="block w-full bg-primary hover:bg-red-600 text-white font-bold py-4 md:py-5 rounded-lg text-center text-lg md:text-xl transition-colors mb-3 md:mb-4 shadow-lg hover:shadow-xl"
             >
               🔥 BUY NOW - INSTANT ACCESS
             </a>
