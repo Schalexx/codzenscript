@@ -1,11 +1,22 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import useTimer from './useTimer'
 import SEO from './SEO'
 
 function ProductPage() {
   const [openFaq, setOpenFaq] = useState(null)
+  const [showStickyCta, setShowStickyCta] = useState(false)
   const { hours, minutes, seconds } = useTimer()
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show sticky CTA when user scrolls down 600px
+      setShowStickyCta(window.scrollY > 600)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const faqs = [
     {
@@ -140,11 +151,30 @@ function ProductPage() {
               </div>
             </div>
 
-            {/* Countdown Timer */}
+            {/* Performance Stats - Before/After */}
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-lg p-3 md:p-4 mb-4">
+              <h3 className="text-center font-bold text-sm md:text-base text-gray-900 mb-3">Average User Performance Gains</h3>
+              <div className="grid grid-cols-3 gap-2 md:gap-4">
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+1.4</div>
+                  <div className="text-xs md:text-sm text-gray-600">K/D Ratio</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+38%</div>
+                  <div className="text-xs md:text-sm text-gray-600">Accuracy</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+52%</div>
+                  <div className="text-xs md:text-sm text-gray-600">Win Rate</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Countdown Timer - Enhanced */}
             <div className="bg-gradient-to-r from-primary to-red-600 text-white rounded-lg p-3 md:p-4 mb-4 md:mb-6">
               <div className="text-center">
-                <p className="text-xs md:text-sm font-semibold mb-2">🔥 LIMITED TIME OFFER - USE CODE: BO7</p>
-                <div className="flex justify-center gap-3 md:gap-4 text-xl md:text-2xl font-bold">
+                <p className="text-xs md:text-sm font-semibold mb-1">🔥 40% OFF ENDS IN:</p>
+                <div className="flex justify-center gap-3 md:gap-4 text-xl md:text-2xl font-bold mb-2">
                   <div>
                     <span className="text-2xl md:text-3xl">{String(hours).padStart(2, '0')}</span>
                   </div>
@@ -157,6 +187,7 @@ function ProductPage() {
                     <span className="text-2xl md:text-3xl">{String(seconds).padStart(2, '0')}</span>
                   </div>
                 </div>
+                <p className="text-xs opacity-90">Use code: <strong>BO7</strong> at checkout</p>
               </div>
             </div>
 
@@ -167,6 +198,14 @@ function ProductPage() {
                 <p className="text-xs md:text-sm font-bold text-gray-900">Only 12 units left in stock!</p>
                 <p className="text-xs text-gray-600">High demand - order now to secure yours</p>
               </div>
+            </div>
+
+            {/* Real-time Social Proof */}
+            <div className="bg-green-50 border border-green-200 rounded-lg p-2 md:p-3 mb-4 flex items-center gap-2">
+              <span className="text-green-600 text-lg">👥</span>
+              <p className="text-xs md:text-sm text-gray-900">
+                <strong className="text-green-600">15 people</strong> are viewing this right now
+              </p>
             </div>
 
             {/* Payment Methods */}
@@ -181,15 +220,71 @@ function ProductPage() {
               </div>
             </div>
 
+            {/* Featured Review - Social Proof */}
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-lg p-3 md:p-4 mb-4">
+              <div className="flex items-start gap-2 md:gap-3 mb-2">
+                <div className="flex-shrink-0">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base">
+                    MK
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="font-bold text-sm md:text-base text-gray-900">Marcus K.</span>
+                    <span className="text-xs text-gray-500">Verified Purchase</span>
+                  </div>
+                  <div className="flex items-center mb-2">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-xs md:text-sm text-gray-700 italic">
+                    "My K/D went from 1.4 to 2.8 in just 2 weeks. The auto tracking is insane - feels like I'm playing on a whole different level. Best $60 I've spent on gaming."
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* CTA Button */}
             <a
               href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full bg-primary hover:bg-red-600 text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-colors mb-3 md:mb-4"
+              className="block w-full bg-primary hover:bg-red-600 text-white font-bold py-3 md:py-4 rounded-lg text-center text-base md:text-lg transition-colors mb-3 md:mb-4 shadow-lg hover:shadow-xl"
             >
-              BUY NOW - INSTANT ACCESS
+              🔥 BUY NOW - INSTANT ACCESS
             </a>
+
+            {/* Trust Badges Below CTA */}
+            <div className="flex items-center justify-center gap-3 md:gap-4 mb-4 text-xs md:text-sm text-gray-600">
+              <div className="flex items-center gap-1">
+                <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="font-semibold">Secure Checkout</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="font-semibold">2,150+ Users</span>
+              </div>
+            </div>
+
+            {/* Money-Back Guarantee */}
+            <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-300 rounded-lg p-3 md:p-4 mb-4">
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="text-2xl md:text-3xl">✅</div>
+                <div className="flex-1">
+                  <h3 className="font-bold text-sm md:text-base text-gray-900">30-Day Money-Back Guarantee</h3>
+                  <p className="text-xs md:text-sm text-gray-700">
+                    Not satisfied? Get a full refund within 30 days. No questions asked.
+                  </p>
+                </div>
+              </div>
+            </div>
 
             {/* Support Callout */}
             <div className="bg-red-50 border border-red-200 rounded-lg p-3 md:p-4">
@@ -382,6 +477,40 @@ function ProductPage() {
           </div>
         </div>
       </footer>
+
+      {/* Sticky CTA Button - Mobile Only */}
+      <div
+        className={`fixed bottom-0 left-0 right-0 z-50 md:hidden transition-transform duration-300 ${
+          showStickyCta ? 'translate-y-0' : 'translate-y-full'
+        }`}
+      >
+        <div className="bg-white border-t-2 border-primary shadow-2xl p-3">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <div>
+              <div className="text-2xl font-black text-primary">$60.00</div>
+              <div className="text-xs text-gray-500">
+                <span className="line-through">$100</span> <span className="text-primary font-bold">40% OFF</span>
+              </div>
+            </div>
+            <a
+              href="https://whop.com/checkout/plan_kX0heL2LtwAlP?d2c=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 bg-primary hover:bg-red-600 text-white font-bold py-3 rounded-lg text-center text-sm transition-colors shadow-lg"
+            >
+              BUY NOW - INSTANT ACCESS
+            </a>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-xs text-gray-600">
+            <svg className="w-3 h-3 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+            </svg>
+            <span>Secure Checkout</span>
+            <span>•</span>
+            <span>30-Day Guarantee</span>
+          </div>
+        </div>
+      </div>
       </div>
     </>
   )
