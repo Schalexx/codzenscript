@@ -151,24 +151,6 @@ function ProductPage() {
               </div>
             </div>
 
-            {/* Performance Stats - Before/After */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 border-2 border-purple-200 rounded-lg p-3 md:p-4 mb-4">
-              <h3 className="text-center font-bold text-sm md:text-base text-gray-900 mb-3">Average User Performance Gains</h3>
-              <div className="grid grid-cols-3 gap-2 md:gap-4">
-                <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+1.4</div>
-                  <div className="text-xs md:text-sm text-gray-600">K/D Ratio</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+38%</div>
-                  <div className="text-xs md:text-sm text-gray-600">Accuracy</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl md:text-3xl font-bold text-purple-600">+52%</div>
-                  <div className="text-xs md:text-sm text-gray-600">Win Rate</div>
-                </div>
-              </div>
-            </div>
 
             {/* Countdown Timer - Enhanced */}
             <div className="bg-gradient-to-r from-primary to-red-600 text-white rounded-lg p-3 md:p-4 mb-4 md:mb-6">
@@ -221,10 +203,10 @@ function ProductPage() {
             </div>
 
             {/* Featured Review - Social Proof */}
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-200 rounded-lg p-3 md:p-4 mb-4">
+            <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-lg p-3 md:p-4 mb-4">
               <div className="flex items-start gap-2 md:gap-3 mb-2">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base">
+                  <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-primary to-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base">
                     MK
                   </div>
                 </div>
@@ -282,6 +264,24 @@ function ProductPage() {
                   <p className="text-xs md:text-sm text-gray-700">
                     Not satisfied? Get a full refund within 30 days. No questions asked.
                   </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Performance Stats - Compact */}
+            <div className="bg-gradient-to-br from-red-50 to-pink-50 border border-red-200 rounded-lg p-2 md:p-3 mb-4">
+              <div className="grid grid-cols-3 gap-2 text-center">
+                <div>
+                  <div className="text-lg md:text-xl font-bold text-primary">+1.4</div>
+                  <div className="text-xs text-gray-600">K/D Avg</div>
+                </div>
+                <div>
+                  <div className="text-lg md:text-xl font-bold text-primary">+38%</div>
+                  <div className="text-xs text-gray-600">Accuracy</div>
+                </div>
+                <div>
+                  <div className="text-lg md:text-xl font-bold text-primary">+52%</div>
+                  <div className="text-xs text-gray-600">Win Rate</div>
                 </div>
               </div>
             </div>
