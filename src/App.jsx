@@ -332,19 +332,6 @@ function App() {
               </div>
             </div>
 
-            {/* Money-Back Guarantee - Compact */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-300 rounded-lg p-2 md:p-3 mb-4">
-              <div className="flex items-center gap-2">
-                <div className="text-xl md:text-2xl">✅</div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-xs md:text-sm text-gray-900">30-Day Money-Back Guarantee</h3>
-                  <p className="text-xs text-gray-700">
-                    Not satisfied? Full refund, no questions asked.
-                  </p>
-                </div>
-              </div>
-            </div>
-
             {/* Performance Stats - Compact */}
             <div className="bg-gradient-to-br from-red-50 to-pink-50 border border-red-200 rounded-lg p-2 mb-4 md:mb-6">
               <div className="grid grid-cols-3 gap-2 text-center">
@@ -893,7 +880,7 @@ function App() {
             </svg>
             <span>Secure Checkout</span>
             <span>•</span>
-            <span>30-Day Guarantee</span>
+            <span>Instant Delivery</span>
           </div>
         </div>
       </div>
