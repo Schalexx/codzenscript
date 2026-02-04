@@ -69,7 +69,16 @@ function ThankYouPage() {
                 1
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Check Your Email</h3>
+                <h3 className="font-bold text-gray-900 mb-1">
+                  <a
+                    href="https://whop.com/joined/cronuszenscripts/apollo-cod-downloads-pg4S5TMzN55Fsn/app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    Download script here
+                  </a>
+                </h3>
                 <p className="text-gray-600 text-sm md:text-base">
                   You'll receive an email with your download instructions and license key within the next few minutes.
                 </p>
