@@ -63,25 +63,35 @@ function ThankYouPage() {
         {/* What Happens Next */}
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 md:p-8 mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">What Happens Next?</h2>
+
+          {/* Prominent Download Callout */}
+          <div className="bg-white border-2 border-primary rounded-lg p-6 mb-6">
+            <p className="text-gray-900 font-semibold mb-4">
+              Download your script and view the guides (Make sure you log in with the email you paid with !!!):
+            </p>
+            <a
+              href="https://whop.com/joined/cronuszenscripts/apollo-cod-downloads-pg4S5TMzN55Fsn/app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 bg-primary text-white font-bold text-lg rounded-lg hover:bg-red-600 transition-colors"
+            >
+              Access Your Downloads →
+            </a>
+          </div>
+
           <div className="space-y-4">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">
                 1
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">
-                  <a
-                    href="https://whop.com/joined/cronuszenscripts/apollo-cod-downloads-pg4S5TMzN55Fsn/app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline"
-                  >
-                    Download script here
-                  </a>
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base">
-                  You'll receive an email with your download instructions and license key within the next few minutes.
+                <h3 className="font-bold text-gray-900 mb-1">Download & Install</h3>
+                <p className="text-gray-600 text-sm md:text-base mb-2">
+                  Follow our step-by-step setup guide to install the script on your Cronus Zen device.
                 </p>
+                <Link to="/setup-guide" className="text-primary font-semibold hover:underline">
+                  View Setup Guide →
+                </Link>
               </div>
             </div>
 
@@ -102,33 +112,6 @@ function ThankYouPage() {
                 >
                   Join Discord Now →
                 </a>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">
-                3
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 mb-1">Download & Install</h3>
-                <p className="text-gray-600 text-sm md:text-base mb-2">
-                  Follow our step-by-step setup guide to install the script on your Cronus Zen device.
-                </p>
-                <Link to="/setup-guide" className="text-primary font-semibold hover:underline">
-                  View Setup Guide →
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">
-                4
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 mb-1">Start Dominating</h3>
-                <p className="text-gray-600 text-sm md:text-base">
-                  Load up Call of Duty and experience unmatched performance with your new Zen script!
-                </p>
               </div>
             </div>
           </div>
